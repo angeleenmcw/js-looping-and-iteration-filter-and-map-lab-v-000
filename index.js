@@ -17,7 +17,7 @@ matchDrivers
 }
 
 function exactMatchToList(drivers, name) {
-  const driversNames =  {
+  const driversNames = exactMatch(drivers) {
     for (const key in name) {
       return driver[key] === name[key];
     }
