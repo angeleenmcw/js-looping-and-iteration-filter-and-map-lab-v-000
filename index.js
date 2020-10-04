@@ -3,7 +3,7 @@ function driversWithRevenueOver(drivers, revenue) {
 }
 
 function driverNamesWithRevenueOver(drivers, revenue) {
-  const matchingDrivers = driversNamesWithRevenueOver(drivers, revenue);
+  const matchingDrivers = driversWithRevenueOver(drivers, revenue);
     return matchingDrivers.map(driver => driver.name);
 }
 
