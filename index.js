@@ -13,10 +13,10 @@ function exactMatch(drivers, attribute) {
     return driver[key] === attribute[key];
 }
 });
-matchDrivers
+matchDrivers;
 }
 
 function exactMatchToList(drivers, attribute) {
   const driversNames = exactMatch(drivers, attribute).map(driver => driver.name);
-  return driversNames
+  return driversNames;
 }
