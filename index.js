@@ -1,3 +1,7 @@
 function driversWithRevenueOver(drivers) {
-  return driver.map(function(revenue))
+  return drivers.filter(driver => driver.revenue > driver)
+}
+
+function driverNamesWithRevenueOver(drivers, revenue) {
+  const matchingDrivers = 
 }
