@@ -17,4 +17,4 @@ matchDrivers
 }
 
 function exactMatchToList(drivers, attribute) {
-  const driversNames = exactMatch(drivers, attribute).map(drivers,)
+  const driversNames = exactMatch(drivers, attribute).map(driver => driver.name)
