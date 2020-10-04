@@ -4,6 +4,6 @@ function driversWithRevenueOver(drivers) {
 
 function driverNamesWithRevenueOver(drivers, revenue) {
   const matchingDrivers = driversNamesWithRevenueOver(driver, revenue) {
-    matchingDrivers.filger
+    matchingDrivers.map(driver => driver.name);
   }
 }
